@@ -80,27 +80,27 @@ python3 -m streamlit run main.py
 
 Upload a **PDF, DOCX, or PPTX document** through the document upload interface.
 
-<img src="Pages%20to%20Pixels%20Project/1.PNG" alt="PagesToPixel Home Page" width="900"/>
+<img src="1.PNG" alt="PagesToPixel Home Page" width="900"/>
 
-<img src="Pages%20to%20Pixels%20Project/2.PNG" alt="Document Upload Page" width="900"/>
+<img src="2.PNG" alt="Document Upload Page" width="900"/>
 
 ### 2. Customize the Summary
 
 The application extracts the document content and allows users to choose how they want the summary to be generated, including the **number of lines, number of paragraphs, or a custom prompt**.
 
-<img src="Pages%20to%20Pixels%20Project/3.PNG" alt="Summary Options" width="900"/>
+<img src="3.PNG" alt="Summary Options" width="900"/>
 
 ### 3. Generate an AI Summary
 
 The extracted content is processed using the **Google Gemini API**, which generates a concise summary based on the user's selected preferences.
 
-<img src="Pages%20to%20Pixels%20Project/4.PNG" alt="AI Generated Summary" width="900"/>
+<img src="4.PNG" alt="AI Generated Summary" width="900"/>
 
 ### 4. Generate the AI Avatar Video
 
 The generated summary is sent to the **HeyGen API**, which converts the content into an AI avatar-based video that can be viewed and downloaded.
 
-<img src="Pages%20to%20Pixels%20Project/Screenshot%202025-04-01%20150714.png" alt="Generated AI Avatar Video" width="900"/>
+<img src="Screenshot%202025-04-01%20150714.png" alt="Generated AI Avatar Video" width="900"/>
 
 ---
 
