@@ -72,9 +72,6 @@ python3 -m streamlit run main.py
 ---
 
 ## How It Works
----
-
-## How It Works
 
 ### 1. Upload a Document
 
@@ -102,8 +99,6 @@ The generated summary is sent to the **HeyGen API**, which converts the content 
 
 <img src="Screenshot%202025-04-01%20150714.png" alt="Generated AI Avatar Video" width="900"/>
 
----
-
 
 ---
 
@@ -117,39 +112,12 @@ The generated summary is sent to the **HeyGen API**, which converts the content 
 
 ---
 
-## Project Structure
-
-```text
-PagesToPixel/
-│
-├── .streamlit/
-│   └── config.toml
-│
-├── landing.py
-├── GUI.py
-├── main.py
-├── Logo.png
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
-
----
-
 ## Security & Safety
 
 * API credentials are managed using **Streamlit secrets**
 * API keys should never be committed to the repository
 * Temporary files and Python cache files are excluded from version control
 * Uploaded documents are processed within the application workflow
-
----
-
-## Team Project
-
-PagesToPixel was developed as a **college team project**.
-
-The project involved building an AI-powered pipeline that combines **document processing, natural-language summarization, and AI avatar video generation**.
 
 ---
 
