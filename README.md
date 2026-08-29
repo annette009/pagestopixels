@@ -26,7 +26,6 @@ An **AI-powered document-to-video generation application** built using **Python,
 * **DOCX Processing**: python-docx
 * **PPTX Processing**: python-pptx
 * **API Communication**: Requests
-* **Environment / Configuration**: python-dotenv
 
 ---
 
